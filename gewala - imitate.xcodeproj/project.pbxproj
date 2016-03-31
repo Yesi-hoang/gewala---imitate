@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43D0A9B1CACF9E200A52234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0A9A1CACF9E200A52234 /* main.m */; };
+		D43D0A9E1CACF9E200A52234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0A9D1CACF9E200A52234 /* AppDelegate.m */; };
+		D43D0AA11CACF9E200A52234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0AA01CACF9E200A52234 /* ViewController.m */; };
+		D43D0AA41CACF9E200A52234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43D0AA21CACF9E200A52234 /* Main.storyboard */; };
+		D43D0AA61CACF9E200A52234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43D0AA51CACF9E200A52234 /* Assets.xcassets */; };
+		D43D0AA91CACF9E200A52234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43D0AA71CACF9E200A52234 /* LaunchScreen.storyboard */; };
+		D43D0AB41CACF9E300A52234 /* gewala___imitateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0AB31CACF9E300A52234 /* gewala___imitateTests.m */; };
+		D43D0ABF1CACF9E300A52234 /* gewala___imitateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0ABE1CACF9E300A52234 /* gewala___imitateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43D0AB01CACF9E300A52234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43D0A8E1CACF9E200A52234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43D0A951CACF9E200A52234;
+			remoteInfo = "gewala - imitate";
+		};
+		D43D0ABB1CACF9E300A52234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43D0A8E1CACF9E200A52234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43D0A951CACF9E200A52234;
+			remoteInfo = "gewala - imitate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43D0A961CACF9E200A52234 /* gewala - imitate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gewala - imitate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43D0A9A1CACF9E200A52234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43D0A9C1CACF9E200A52234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D43D0A9D1CACF9E200A52234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D43D0A9F1CACF9E200A52234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D43D0AA01CACF9E200A52234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D43D0AA31CACF9E200A52234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43D0AA51CACF9E200A52234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43D0AA81CACF9E200A52234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43D0AAA1CACF9E200A52234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43D0AAF1CACF9E300A52234 /* gewala - imitateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gewala - imitateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43D0AB31CACF9E300A52234 /* gewala___imitateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "gewala___imitateTests.m"; sourceTree = "<group>"; };
+		D43D0AB51CACF9E300A52234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43D0ABA1CACF9E300A52234 /* gewala - imitateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gewala - imitateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43D0ABE1CACF9E300A52234 /* gewala___imitateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "gewala___imitateUITests.m"; sourceTree = "<group>"; };
+		D43D0AC01CACF9E300A52234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43D0A931CACF9E200A52234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AAC1CACF9E300A52234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AB71CACF9E300A52234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D43D0A8D1CACF9E200A52234 = {
+			isa = PBXGroup;
+			children = (
+				D43D0A981CACF9E200A52234 /* gewala - imitate */,
+				D43D0AB21CACF9E300A52234 /* gewala - imitateTests */,
+				D43D0ABD1CACF9E300A52234 /* gewala - imitateUITests */,
+				D43D0A971CACF9E200A52234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43D0A971CACF9E200A52234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43D0A961CACF9E200A52234 /* gewala - imitate.app */,
+				D43D0AAF1CACF9E300A52234 /* gewala - imitateTests.xctest */,
+				D43D0ABA1CACF9E300A52234 /* gewala - imitateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43D0A981CACF9E200A52234 /* gewala - imitate */ = {
+			isa = PBXGroup;
+			children = (
+				D43D0A9C1CACF9E200A52234 /* AppDelegate.h */,
+				D43D0A9D1CACF9E200A52234 /* AppDelegate.m */,
+				D43D0A9F1CACF9E200A52234 /* ViewController.h */,
+				D43D0AA01CACF9E200A52234 /* ViewController.m */,
+				D43D0AA21CACF9E200A52234 /* Main.storyboard */,
+				D43D0AA51CACF9E200A52234 /* Assets.xcassets */,
+				D43D0AA71CACF9E200A52234 /* LaunchScreen.storyboard */,
+				D43D0AAA1CACF9E200A52234 /* Info.plist */,
+				D43D0A991CACF9E200A52234 /* Supporting Files */,
+			);
+			path = "gewala - imitate";
+			sourceTree = "<group>";
+		};
+		D43D0A991CACF9E200A52234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43D0A9A1CACF9E200A52234 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D43D0AB21CACF9E300A52234 /* gewala - imitateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D43D0AB31CACF9E300A52234 /* gewala___imitateTests.m */,
+				D43D0AB51CACF9E300A52234 /* Info.plist */,
+			);
+			path = "gewala - imitateTests";
+			sourceTree = "<group>";
+		};
+		D43D0ABD1CACF9E300A52234 /* gewala - imitateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43D0ABE1CACF9E300A52234 /* gewala___imitateUITests.m */,
+				D43D0AC01CACF9E300A52234 /* Info.plist */,
+			);
+			path = "gewala - imitateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43D0A951CACF9E200A52234 /* gewala - imitate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43D0AC31CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitate" */;
+			buildPhases = (
+				D43D0A921CACF9E200A52234 /* Sources */,
+				D43D0A931CACF9E200A52234 /* Frameworks */,
+				D43D0A941CACF9E200A52234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gewala - imitate";
+			productName = "gewala - imitate";
+			productReference = D43D0A961CACF9E200A52234 /* gewala - imitate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43D0AAE1CACF9E300A52234 /* gewala - imitateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43D0AC61CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateTests" */;
+			buildPhases = (
+				D43D0AAB1CACF9E300A52234 /* Sources */,
+				D43D0AAC1CACF9E300A52234 /* Frameworks */,
+				D43D0AAD1CACF9E300A52234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43D0AB11CACF9E300A52234 /* PBXTargetDependency */,
+			);
+			name = "gewala - imitateTests";
+			productName = "gewala - imitateTests";
+			productReference = D43D0AAF1CACF9E300A52234 /* gewala - imitateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43D0AB91CACF9E300A52234 /* gewala - imitateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43D0AC91CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateUITests" */;
+			buildPhases = (
+				D43D0AB61CACF9E300A52234 /* Sources */,
+				D43D0AB71CACF9E300A52234 /* Frameworks */,
+				D43D0AB81CACF9E300A52234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43D0ABC1CACF9E300A52234 /* PBXTargetDependency */,
+			);
+			name = "gewala - imitateUITests";
+			productName = "gewala - imitateUITests";
+			productReference = D43D0ABA1CACF9E300A52234 /* gewala - imitateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43D0A8E1CACF9E200A52234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yesi;
+				TargetAttributes = {
+					D43D0A951CACF9E200A52234 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D43D0AAE1CACF9E300A52234 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D43D0A951CACF9E200A52234;
+					};
+					D43D0AB91CACF9E300A52234 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D43D0A951CACF9E200A52234;
+					};
+				};
+			};
+			buildConfigurationList = D43D0A911CACF9E200A52234 /* Build configuration list for PBXProject "gewala - imitate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43D0A8D1CACF9E200A52234;
+			productRefGroup = D43D0A971CACF9E200A52234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43D0A951CACF9E200A52234 /* gewala - imitate */,
+				D43D0AAE1CACF9E300A52234 /* gewala - imitateTests */,
+				D43D0AB91CACF9E300A52234 /* gewala - imitateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43D0A941CACF9E200A52234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43D0AA91CACF9E200A52234 /* LaunchScreen.storyboard in Resources */,
+				D43D0AA61CACF9E200A52234 /* Assets.xcassets in Resources */,
+				D43D0AA41CACF9E200A52234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AAD1CACF9E300A52234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AB81CACF9E300A52234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43D0A921CACF9E200A52234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43D0AA11CACF9E200A52234 /* ViewController.m in Sources */,
+				D43D0A9E1CACF9E200A52234 /* AppDelegate.m in Sources */,
+				D43D0A9B1CACF9E200A52234 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AAB1CACF9E300A52234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43D0AB41CACF9E300A52234 /* gewala___imitateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43D0AB61CACF9E300A52234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43D0ABF1CACF9E300A52234 /* gewala___imitateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43D0AB11CACF9E300A52234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43D0A951CACF9E200A52234 /* gewala - imitate */;
+			targetProxy = D43D0AB01CACF9E300A52234 /* PBXContainerItemProxy */;
+		};
+		D43D0ABC1CACF9E300A52234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43D0A951CACF9E200A52234 /* gewala - imitate */;
+			targetProxy = D43D0ABB1CACF9E300A52234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43D0AA21CACF9E200A52234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43D0AA31CACF9E200A52234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43D0AA71CACF9E200A52234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43D0AA81CACF9E200A52234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43D0AC11CACF9E300A52234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43D0AC21CACF9E300A52234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43D0AC41CACF9E300A52234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "gewala - imitate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D43D0AC51CACF9E300A52234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "gewala - imitate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D43D0AC71CACF9E300A52234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "gewala - imitateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gewala - imitate.app/gewala - imitate";
+			};
+			name = Debug;
+		};
+		D43D0AC81CACF9E300A52234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "gewala - imitateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gewala - imitate.app/gewala - imitate";
+			};
+			name = Release;
+		};
+		D43D0ACA1CACF9E300A52234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "gewala - imitateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "gewala - imitate";
+			};
+			name = Debug;
+		};
+		D43D0ACB1CACF9E300A52234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "gewala - imitateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "gewala - imitate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43D0A911CACF9E200A52234 /* Build configuration list for PBXProject "gewala - imitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43D0AC11CACF9E300A52234 /* Debug */,
+				D43D0AC21CACF9E300A52234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43D0AC31CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43D0AC41CACF9E300A52234 /* Debug */,
+				D43D0AC51CACF9E300A52234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D43D0AC61CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43D0AC71CACF9E300A52234 /* Debug */,
+				D43D0AC81CACF9E300A52234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D43D0AC91CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43D0ACA1CACF9E300A52234 /* Debug */,
+				D43D0ACB1CACF9E300A52234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43D0A8E1CACF9E200A52234 /* Project object */;
+}
