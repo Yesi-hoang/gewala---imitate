@@ -1,25 +1,161 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="p31-2P-wXO">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="dgk-yD-0k9">
+            <objects>
+                <viewController id="C02-RL-0Ra" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B7n-7L-wsL"/>
+                        <viewControllerLayoutGuide type="bottom" id="X6g-DI-ZMg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nWj-dB-FEb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERH-bU-B40">
+                                <rect key="frame" x="315" y="30" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5dg-Vv-916"/>
+                                    <constraint firstAttribute="width" constant="30" id="rtJ-Lw-CIj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="poClick:" destination="C02-RL-0Ra" eventType="touchUpInside" id="jBj-ba-L23"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sweeney Todd- The Demon Barber of Fleet Street" translatesAutoresizingMaskIntoConstraints="NO" id="p3H-4c-lZR">
+                                <rect key="frame" x="67" y="100" width="232" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="244" id="wNH-7a-V1w"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.64057098130000001" blue="0.9312288085" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="p3H-4c-lZR" firstAttribute="leading" secondItem="nWj-dB-FEb" secondAttribute="leading" constant="67" id="6Oq-L1-2hO"/>
+                            <constraint firstItem="ERH-bU-B40" firstAttribute="top" secondItem="nWj-dB-FEb" secondAttribute="top" constant="30" id="IxK-GA-maO"/>
+                            <constraint firstAttribute="trailing" secondItem="ERH-bU-B40" secondAttribute="trailing" constant="30" id="Wdz-2u-Ryi"/>
+                            <constraint firstItem="X6g-DI-ZMg" firstAttribute="top" secondItem="p3H-4c-lZR" secondAttribute="bottom" constant="323" id="Z5v-Gc-AOI"/>
+                            <constraint firstAttribute="trailing" secondItem="p3H-4c-lZR" secondAttribute="trailing" constant="76" id="lzA-In-lhB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ERH-bU-B40" secondAttribute="trailing" constant="30" id="q7x-C5-eLv"/>
+                            <constraint firstItem="ERH-bU-B40" firstAttribute="top" secondItem="B7n-7L-wsL" secondAttribute="bottom" constant="30" id="zvT-iA-cjo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="q7x-C5-eLv"/>
+                                <exclude reference="zvT-iA-cjo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="RQx-RS-hRW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="popButton" destination="ERH-bU-B40" id="89F-9c-qSu"/>
+                        <outlet property="popImageV" destination="p3H-4c-lZR" id="neW-7g-WKh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="npc-3V-r2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1664.5" y="303.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="IbE-nd-lk6" userLabel="BG Image View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sweeney Todd- The Demon Barber of Fleet Street" translatesAutoresizingMaskIntoConstraints="NO" id="Zqv-Mg-7Jt">
+                                <rect key="frame" x="67" y="100" width="232" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="244" id="huX-fZ-WvX"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSd-TB-v3e">
+                                <rect key="frame" x="315" y="30" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="IRf-fb-ocf"/>
+                                    <constraint firstAttribute="height" constant="30" id="wKY-Sb-Ihb"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="pushClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4SQ-Ox-pFQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zqv-Mg-7Jt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="Jiy-An-cfu"/>
+                            <constraint firstItem="IbE-nd-lk6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LFW-RF-aIa"/>
+                            <constraint firstAttribute="trailing" secondItem="IbE-nd-lk6" secondAttribute="trailing" id="MG4-tb-xFR"/>
+                            <constraint firstAttribute="trailing" secondItem="Zqv-Mg-7Jt" secondAttribute="trailing" constant="76" id="Yb7-jq-cpr"/>
+                            <constraint firstItem="IbE-nd-lk6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YfP-ij-zPT"/>
+                            <constraint firstAttribute="trailing" secondItem="hSd-TB-v3e" secondAttribute="trailing" constant="30" id="aaH-KJ-giP"/>
+                            <constraint firstItem="hSd-TB-v3e" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="30" id="bJf-Ga-F78"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zqv-Mg-7Jt" secondAttribute="bottom" constant="323" id="gWu-0q-uJ1"/>
+                            <constraint firstAttribute="bottom" secondItem="IbE-nd-lk6" secondAttribute="bottom" id="leF-vf-Ycn"/>
+                            <constraint firstItem="hSd-TB-v3e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="xmR-E6-TjE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xmR-E6-TjE"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="xq1-VB-d4B"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="pushButton" destination="hSd-TB-v3e" id="jV2-Qn-U2F"/>
+                        <outlet property="pushImageV" destination="Zqv-Mg-7Jt" id="BrA-Pj-50R"/>
+                        <segue destination="C02-RL-0Ra" kind="show" identifier="push" id="63S-cX-qZ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1111.5" y="304.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cyo-g7-hCz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="p31-2P-wXO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6eH-QA-axi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="delegate" destination="lsZ-zg-k8U" id="zMx-ji-tWU"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="881-Mb-jZZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vag-gz-fsW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="lsZ-zg-k8U" customClass="YesiNavigationDelegate">
+                    <connections>
+                        <outlet property="navigationController" destination="p31-2P-wXO" id="y7B-Yy-8KW"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="299" y="304"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sweeney Todd- The Demon Barber of Fleet Street" width="930" height="1379"/>
+        <image name="bg" width="600" height="429"/>
+    </resources>
 </document>

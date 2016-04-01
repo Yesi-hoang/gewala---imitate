@@ -15,6 +15,9 @@
 		D43D0AA91CACF9E200A52234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43D0AA71CACF9E200A52234 /* LaunchScreen.storyboard */; };
 		D43D0AB41CACF9E300A52234 /* gewala___imitateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0AB31CACF9E300A52234 /* gewala___imitateTests.m */; };
 		D43D0ABF1CACF9E300A52234 /* gewala___imitateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0ABE1CACF9E300A52234 /* gewala___imitateUITests.m */; };
+		D43D0ACE1CAD19C700A52234 /* YesiNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0ACD1CAD19C700A52234 /* YesiNavigationDelegate.m */; };
+		D43D0AD11CAD1C3200A52234 /* YesiTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D0AD01CAD1C3200A52234 /* YesiTransitionAnimator.m */; };
+		D49FC34D1CAE670E00658E12 /* Animatior.m in Sources */ = {isa = PBXBuildFile; fileRef = D49FC34C1CAE670E00658E12 /* Animatior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D43D0ABA1CACF9E300A52234 /* gewala - imitateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gewala - imitateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43D0ABE1CACF9E300A52234 /* gewala___imitateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "gewala___imitateUITests.m"; sourceTree = "<group>"; };
 		D43D0AC01CACF9E300A52234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43D0ACC1CAD19C700A52234 /* YesiNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesiNavigationDelegate.h; sourceTree = "<group>"; };
+		D43D0ACD1CAD19C700A52234 /* YesiNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesiNavigationDelegate.m; sourceTree = "<group>"; };
+		D43D0ACF1CAD1C3200A52234 /* YesiTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesiTransitionAnimator.h; sourceTree = "<group>"; };
+		D43D0AD01CAD1C3200A52234 /* YesiTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesiTransitionAnimator.m; sourceTree = "<group>"; };
+		D49FC34B1CAE670E00658E12 /* Animatior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animatior.h; sourceTree = "<group>"; };
+		D49FC34C1CAE670E00658E12 /* Animatior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animatior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				D43D0AA71CACF9E200A52234 /* LaunchScreen.storyboard */,
 				D43D0AAA1CACF9E200A52234 /* Info.plist */,
 				D43D0A991CACF9E200A52234 /* Supporting Files */,
+				D43D0ACC1CAD19C700A52234 /* YesiNavigationDelegate.h */,
+				D43D0ACD1CAD19C700A52234 /* YesiNavigationDelegate.m */,
+				D43D0ACF1CAD1C3200A52234 /* YesiTransitionAnimator.h */,
+				D43D0AD01CAD1C3200A52234 /* YesiTransitionAnimator.m */,
+				D49FC34B1CAE670E00658E12 /* Animatior.h */,
+				D49FC34C1CAE670E00658E12 /* Animatior.m */,
 			);
 			path = "gewala - imitate";
 			sourceTree = "<group>";
@@ -207,6 +222,7 @@
 				TargetAttributes = {
 					D43D0A951CACF9E200A52234 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 47M9MXVQ75;
 					};
 					D43D0AAE1CACF9E300A52234 = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,9 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D43D0ACE1CAD19C700A52234 /* YesiNavigationDelegate.m in Sources */,
 				D43D0AA11CACF9E200A52234 /* ViewController.m in Sources */,
 				D43D0A9E1CACF9E200A52234 /* AppDelegate.m in Sources */,
 				D43D0A9B1CACF9E200A52234 /* main.m in Sources */,
+				D49FC34D1CAE670E00658E12 /* Animatior.m in Sources */,
+				D43D0AD11CAD1C3200A52234 /* YesiTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "gewala - imitate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "gewala - imitate/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.magicwe.gewala---imitate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +523,7 @@
 				D43D0AC51CACF9E300A52234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D43D0AC61CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +532,7 @@
 				D43D0AC81CACF9E300A52234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D43D0AC91CACF9E300A52234 /* Build configuration list for PBXNativeTarget "gewala - imitateUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +541,7 @@
 				D43D0ACB1CACF9E300A52234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
